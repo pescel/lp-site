@@ -1,0 +1,85 @@
+@font-face {
+  font-family: Perfume;
+  src: url('./fonts/Perfume-Classic-Demo-Version.ttf');
+}
+
+.flowers-left {
+  width: 50%;
+  position: absolute;
+  top: -55px  ;
+  left: 0;
+}
+
+nav {
+  font-family: "Droid Serif", serif;
+  font-size: 18px;
+  position: absolute;
+  top: 50px;
+  left: 40%;
+}
+
+.nav-link {
+  color: black;
+  padding: 20px;
+  text-decoration: none;
+  transition: background-size .5s cubic-bezier(0.02, 0.43, 0.69, 0.9);
+}
+
+.nav-link:hover {
+  background-size: 100% 110%;
+  background-position-y: -23px;
+}
+
+.nav-link:active {
+  background-size: 100% 110%;
+  background-position-y: -23px;
+}
+
+.home {
+  background: linear-gradient(to bottom, transparent 60%, #78acee  0) center center/0% 18% no-repeat;
+}
+
+.projects {
+  background: linear-gradient(to bottom, transparent 60%, #a3a3d7 0) center center/0% 18% no-repeat;
+}
+
+.gh {
+  background: linear-gradient(to bottom, transparent 60%, #ae7ba2 0) center center/0% 18% no-repeat;
+}
+
+.li {
+  background: linear-gradient(to bottom, transparent 60%, #f882b9 0) center center/0% 18% no-repeat;
+}
+
+.email {
+  background: linear-gradient(to bottom, transparent 60%, #fe8278 0) center center/0% 18% no-repeat;
+}
+
+.title-container {
+  position: absolute;
+  top: 200px;
+  left: 45%;
+}
+
+.title {
+  font-family: "Droid Serif", serif;
+  font-size: 25px;
+  text-align: left;
+}
+
+h1 {
+  font-family: Perfume, serif;
+  font-size: 100px;
+  margin: 0;
+  letter-spacing: 2px;
+}
+
+.owl-carousel {
+  position: absolute;
+  top: 500px;
+    left: 400px;
+    border: 1px solid;
+    padding: 50px;
+    width: 50%;
+
+}
