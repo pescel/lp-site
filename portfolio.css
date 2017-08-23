@@ -22,12 +22,11 @@ nav {
   color: black;
   padding: 20px;
   text-decoration: none;
-  transition: background-size .5s cubic-bezier(0.02, 0.43, 0.69, 0.9);
 }
 
 .nav-link:hover {
-  background-size: 100% 110%;
-  background-position-y: -23px;
+  background-size: 100% 75%;
+  /*background-position-y: -23px;*/
 }
 
 .nav-link:active {
@@ -36,23 +35,43 @@ nav {
 }
 
 .home {
-  background: linear-gradient(to bottom, transparent 60%, #78acee  0) center center/0% 18% no-repeat;
+  background-image: linear-gradient(to bottom, #78acee 0%, #78acee 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 2px;
+  background-position: 0 75%;
+  transition: background-size 0.25s ease-in;
 }
 
 .projects {
-  background: linear-gradient(to bottom, transparent 60%, #a3a3d7 0) center center/0% 18% no-repeat;
+  background-image: linear-gradient(to bottom, #a3a3d7 0%, #a3a3d7 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 2px;
+  background-position: 0 75%;
+  transition: background-size 0.25s ease-in;
 }
 
 .gh {
-  background: linear-gradient(to bottom, transparent 60%, #ae7ba2 0) center center/0% 18% no-repeat;
+  background-image: linear-gradient(to bottom, #ae7ba2 0%, #ae7ba2 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 2px;
+  background-position: 0 75%;
+  transition: background-size 0.25s ease-in;
 }
 
 .li {
-  background: linear-gradient(to bottom, transparent 60%, #f882b9 0) center center/0% 18% no-repeat;
+  background: linear-gradient(to bottom, #f882b9 0%, #f882b9 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 2px;
+  background-position: 0 75%;
+  transition: background-size 0.25s ease-in;
 }
 
 .email {
-  background: linear-gradient(to bottom, transparent 60%, #fe8278 0) center center/0% 18% no-repeat;
+  background: linear-gradient(to bottom, #fe8278 0%, #fe8278 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 2px;
+  background-position: 0 75%;
+  transition: background-size 0.25s ease-in;
 }
 
 .title-container {

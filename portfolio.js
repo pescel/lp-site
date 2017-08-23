@@ -1,4 +1,4 @@
-import jquery
+import 
 
 $(document).ready(function(){
   $(".owl-carousel").owlCarousel();
