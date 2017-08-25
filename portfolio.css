@@ -4,9 +4,9 @@
 }
 
 .flowers-left {
-  width: 50%;
+  width: 55%;
   position: absolute;
-  top: -55px  ;
+  top: -55px;
   left: 0;
 }
 
@@ -22,24 +22,21 @@ nav {
   color: black;
   padding: 20px;
   text-decoration: none;
+  margin-left: 15px;
 }
 
 .nav-link:hover {
   background-size: 100% 75%;
-  /*background-position-y: -23px;*/
+  color: white;
 }
 
-.nav-link:active {
-  background-size: 100% 110%;
-  background-position-y: -23px;
-}
 
 .home {
   background-image: linear-gradient(to bottom, #78acee 0%, #78acee 100%);
   background-repeat: no-repeat;
   background-size: 100% 2px;
   background-position: 0 75%;
-  transition: background-size 0.25s ease-in;
+  transition:  background-size .5s, color .5s;
 }
 
 .projects {
@@ -47,7 +44,7 @@ nav {
   background-repeat: no-repeat;
   background-size: 100% 2px;
   background-position: 0 75%;
-  transition: background-size 0.25s ease-in;
+  transition: background-size .5s, color .5s;
 }
 
 .gh {
@@ -55,7 +52,7 @@ nav {
   background-repeat: no-repeat;
   background-size: 100% 2px;
   background-position: 0 75%;
-  transition: background-size 0.25s ease-in;
+  transition: background-size .5s, color .5s;
 }
 
 .li {
@@ -63,7 +60,7 @@ nav {
   background-repeat: no-repeat;
   background-size: 100% 2px;
   background-position: 0 75%;
-  transition: background-size 0.25s ease-in;
+  transition: background-size .5s, color .5s;
 }
 
 .email {
@@ -71,7 +68,7 @@ nav {
   background-repeat: no-repeat;
   background-size: 100% 2px;
   background-position: 0 75%;
-  transition: background-size 0.25s ease-in;
+  transition: background-size .5s, color .5s;
 }
 
 .title-container {
@@ -88,17 +85,121 @@ nav {
 
 h1 {
   font-family: Perfume, serif;
-  font-size: 100px;
+  font-size: 120px;
   margin: 0;
   letter-spacing: 2px;
 }
 
 .owl-carousel {
   position: absolute;
-  top: 500px;
-    left: 400px;
-    border: 1px solid;
-    padding: 50px;
-    width: 50%;
+  top: 600px;
+  left: 350px;
+  border: 1px solid;
+  padding: 50px;
+  width: 50%;
+}
 
+.flowers-right {
+  width: 45%;
+  position: absolute;
+  top: 845px;
+  left: 55%;
+}
+
+{box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+ max-width: 1000px;
+ width:60%;
+ height: 400px;
+ position: absolute;
+ margin: auto;
+ top: 550px;
+ left: 345px;
+ border: 2px solid black;
+}
+
+.mySlides {
+   display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+ cursor: pointer;
+ position: absolute;
+ top: 50%;
+ width: auto;
+ margin-top: -22px;
+ padding: 16px;
+ color: white;
+ font-weight: bold;
+ font-size: 18px;
+ transition: 0.6s ease;
+ border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+ right: 0;
+ border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+ background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+ color: #f2f2f2;
+ font-size: 15px;
+ padding: 8px 12px;
+ position: absolute;
+ bottom: 8px;
+ width: 100%;
+ text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+ color: #f2f2f2;
+ font-size: 12px;
+ padding: 8px 12px;
+ position: absolute;
+ top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+ cursor:pointer;
+ height: 13px;
+ width: 13px;
+ margin: 0 2px;
+ background-color: #bbb;
+ border-radius: 50%;
+ display: inline-block;
+ transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+ background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+ -webkit-animation-name: fade;
+ -webkit-animation-duration: 1.5s;
+ animation-name: fade;
+ animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+ from {opacity: .4}
+ to {opacity: 1}
+}
+
+@keyframes fade {
+ from {opacity: .4}
+ to {opacity: 1}
 }
