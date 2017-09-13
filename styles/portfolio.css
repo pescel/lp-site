@@ -1,6 +1,6 @@
 @font-face {
-  font-family: Perfume;
-  src: url('./fonts/Perfume-Classic-Demo-Version.ttf');
+  font-family: Shellahera;
+  src: url('../styles/fonts/ShellaheraScriptDemo.ttf');
 }
 
 .flowers-left {
@@ -84,29 +84,28 @@ nav {
 }
 
 h1 {
-  font-family: Perfume, serif;
-  font-size: 120px;
-  margin: 0;
-  letter-spacing: 2px;
+  font-family: Shellahera, serif;
+  font-size: 200px;
+  margin: 0 45px;
+  font-weight: lighter;
 }
 
-.owl-carousel {
-  position: absolute;
-  top: 600px;
-  left: 350px;
-  border: 1px solid;
-  padding: 50px;
-  width: 50%;
-}
 
 .flowers-right {
   width: 45%;
   position: absolute;
-  top: 845px;
+  top: 1090px;
   left: 55%;
 }
 
-{box-sizing:border-box}
+.projects-title {
+  font-family: Shellahera, serif;
+  position: absolute;
+  top: 605px;
+  left: 23%;
+  font-weight: lighter;
+  font-size: 100px;
+}
 
 /* Slideshow container */
 .slideshow-container {
@@ -115,8 +114,8 @@ h1 {
  height: 400px;
  position: absolute;
  margin: auto;
- top: 550px;
- left: 345px;
+ top: 800px;
+ left: 275px;
  border: 2px solid black;
 }
 
@@ -152,7 +151,8 @@ h1 {
 
 /* Caption text */
 .text {
- color: #f2f2f2;
+ color: #b6b7b7;
+ font-family: "Droid Serif", serif;
  font-size: 15px;
  padding: 8px 12px;
  position: absolute;
@@ -163,10 +163,11 @@ h1 {
 
 /* Number text (1/3 etc) */
 .numbertext {
- color: #f2f2f2;
+ color: #b6b7b7;
  font-size: 12px;
  padding: 8px 12px;
  position: absolute;
+ right: 0;
  top: 0;
 }
 
