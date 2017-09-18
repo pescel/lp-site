@@ -26,7 +26,7 @@ nav {
 }
 
 .nav-link:hover {
-  background-size: 100% 75%;
+  background-size: 100% 111%;
   color: white;
 }
 
@@ -81,15 +81,16 @@ nav {
   font-family: "Droid Serif", serif;
   font-size: 25px;
   text-align: left;
+  margin-bottom: 0;
 }
 
 h1 {
   font-family: Shellahera, serif;
-  font-size: 200px;
+  font-size: 235px;
   margin: 0 45px;
   font-weight: lighter;
+  letter-spacing: 0.5px;
 }
-
 
 .flowers-right {
   width: 45%;
