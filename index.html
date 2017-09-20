@@ -3,9 +3,8 @@
   <head>
     <meta charset="utf-8">
     <title>L. Pesce</title>
+    <link rel="stylesheet" href="styles/media.css">
     <link rel="stylesheet" href="styles/portfolio.css">
-    <link rel="stylesheet" href="../owlcarousel/owl.carousel.min.css">
-    <link rel="stylesheet" href="../owlcarousel/owl.theme.default.min.css">
     <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700" rel="stylesheet">
   </head>
   <body>
@@ -13,31 +12,32 @@
     <nav>
       <a class="nav-link home" href="#home">Home</a>
       <a class="nav-link projects" href="#projects">Projects</a>
-      <a class="nav-link gh" href="https://github.com/pescel" target="_blank"><img src="./images/github.svg" style="width:30px; height:30px;"></a>
-      <a class="nav-link li" href="https://www.linkedin.com/in/lauren-pesce/" target="_blank"><img src="./images/linkedin.svg" style="width:30px; height: 30px;"></a>
-      <a class="nav-link email" href="mailto:28l.pesce@gmail.com?Subject=Hello!" target="_top"><img src="./images/email.svg" style="width:30px; height:30px; margin-right:18px;"></a>
+      <a class="nav-link gh" href="https://github.com/pescel" target="_blank"><img class="nav-images" src="./images/github.svg"></a>
+      <a class="nav-link li" href="https://www.linkedin.com/in/lauren-pesce/" target="_blank"><img class="nav-images" src="./images/linkedin.svg"></a>
+      <a class="nav-link email" href="mailto:28l.pesce@gmail.com?Subject=Hello!" target="_top"><img class="nav-images" src="./images/email.svg" style="margin-right:18px;"></a>
     </nav>
     <div class="title-container">
       <p class="title">Hi there, I'm</p>
       <h1>lauren pesce!</h1>
     </div>
+    <hr/>
     <h2 id="projects" class="projects-title">projects:</h2>
     <div class="slideshow-container">
   <div class="mySlides fade">
     <div class="numbertext">1 / 3</div>
-    <img src="./images/colorpal-gif1.gif" style="width:100%; height:400px;">
+    <img class="project-images" src="./images/colorpal-gif1.gif">
     <div class="text">ColorPal</div>
   </div>
 
   <div class="mySlides fade">
     <div class="numbertext">2 / 3</div>
-    <img src="img2.jpg" style="width:100%">
+    <img src="img2.jpg">
     <div class="text">Caption Two</div>
   </div>
 
   <div class="mySlides fade">
     <div class="numbertext">3 / 3</div>
-    <img src="./images/adopt-fund.png" style="width:100%; height:400px;">
+    <img class="project-images" src="./images/adopt-fund.png">
     <div class="text">Adopt Fund</div>
   </div>
 
@@ -46,11 +46,14 @@
 </div>
 <br>
 
-<div style="position: absolute; top:1220px; left: 50%">
+<div class="project-dots">
   <span class="dot" onclick="currentSlide(1)"></span>
   <span class="dot" onclick="currentSlide(2)"></span>
   <span class="dot" onclick="currentSlide(3)"></span>
 </div>
+<!-- <div>Icons made by <a href="https://www.flaticon.com/authors/dave-gandy" title="Dave Gandy">Dave Gandy</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> -->
+<!-- <div>Icons made by <a href="https://www.flaticon.com/authors/elegant-themes" title="Elegant Themes">Elegant Themes</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> -->
+<!-- <div>Icons made by <a href="https://www.flaticon.com/authors/chanut-is-industries" title="Chanut is Industries">Chanut is Industries</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> -->
     <img class="flowers-right" src="./images/flowers-right.png">
     <script src="jquery.min.js"></script>
     <script src="portfolio.js"></script>

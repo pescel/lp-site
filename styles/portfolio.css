@@ -55,6 +55,10 @@ nav {
   transition: background-size .5s, color .5s;
 }
 
+.nav-images:hover {
+  fill: white;
+}
+
 .li {
   background: linear-gradient(to bottom, #f882b9 0%, #f882b9 100%);
   background-repeat: no-repeat;
@@ -92,6 +96,11 @@ h1 {
   letter-spacing: 0.5px;
 }
 
+hr {
+  color: black;
+  width: 40px;
+}
+
 .flowers-right {
   width: 45%;
   position: absolute;
@@ -118,6 +127,17 @@ h1 {
  top: 800px;
  left: 275px;
  border: 2px solid black;
+}
+
+.project-images {
+  width: 100%;
+  height: 400px;
+}
+
+.project-dots {
+  position: absolute;
+  top:1220px;
+  left: 50%;
 }
 
 .mySlides {
@@ -204,4 +224,97 @@ h1 {
 @keyframes fade {
  from {opacity: .4}
  to {opacity: 1}
+}
+
+.nav-images {
+  width: 30px;
+  height: 30px;
+}
+
+@media only screen and (min-width: 1480px) {
+
+  nav {
+    top: 65px;
+  }
+
+  .nav-link {
+    font-size: 35px;
+    margin-left: 55px;
+  }
+
+  .nav-images {
+    width: 45px;
+    height: 45px;
+  }
+
+  .flowers-left {
+    width: 1060px;
+
+  }
+
+  .title-container{
+    top: 300px;
+  }
+
+  .title {
+    font-size: 50px;
+  }
+
+  h1 {
+    font-size: 300px;
+    margin: 0 100px;
+  }
+
+  .projects-title {
+    top: 855px;
+    left: 735px;
+    font-size: 150px;
+  }
+
+  .slideshow-container {
+    top: 1150px;
+    left:725px;
+    height: 600px;
+    /*width: 1080px;*/
+    border: none;
+  }
+
+  .project-images {
+    height:600px;
+    width: 1080px;
+  }
+
+  .next {
+    right: -85px;
+  }
+
+  .project-dots {
+    top: 1530px;
+    left: 46%;
+  }
+
+  .flowers-right{
+    width: 850px;
+    left: 67%;
+    top: 1300px;
+  }
+
+}
+
+@media only screen and (max-width: 1754px) {
+
+  .title {
+    font-size: 30px;
+  }
+
+  h1 {
+    font-size: 250px;
+  }
+}
+
+@media only screen and (max-width: 1525px) {
+
+  h1 {
+    font-size: 200px;
+  }
 }
