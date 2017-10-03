@@ -55,10 +55,6 @@ nav {
   transition: background-size .5s, color .5s;
 }
 
-.nav-images:hover {
-  fill: white;
-}
-
 .li {
   background: linear-gradient(to bottom, #f882b9 0%, #f882b9 100%);
   background-repeat: no-repeat;
@@ -94,11 +90,6 @@ h1 {
   margin: 0 45px;
   font-weight: lighter;
   letter-spacing: 0.5px;
-}
-
-hr {
-  color: black;
-  width: 40px;
 }
 
 .flowers-right {
